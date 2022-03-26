@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record model="ir.actions.act_window" id="item_list_action">
+            <field name="name">Item</field>
+            <field name="res_model">secondmodule.course</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">Add item here</p>
+            </field>
+        </record>
+
+        <menuitem id="main_secondmodule_menu" name="Second Module"/>
+        <menuitem id="secondmodule_menu" name="Second Module" parent="main_secondmodule_menu"/>
+        <menuitem id="item_menu" name="Items" parent="secondmodule_menu" action="item_list_action"/>
+    </data>
+</odoo>

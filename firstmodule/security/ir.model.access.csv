@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_c:\users\nmr\desktop\odoo\mymodules\firstmodule_c:\users\nmr\desktop\odoo\mymodules\firstmodule,c:\users\nmr\desktop\odoo\mymodules\firstmodule.c:\users\nmr\desktop\odoo\mymodules\firstmodule,model_c:\users\nmr\desktop\odoo\mymodules\firstmodule_c:\users\nmr\desktop\odoo\mymodules\firstmodule,base.group_user,1,1,1,1
